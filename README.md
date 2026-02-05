@@ -5,7 +5,7 @@
 <img width="308" height="128" alt="bssparking_icon" src="https://github.com/user-attachments/assets/09ee49d2-f760-4237-aedb-9e13b6fd7b75" />
 
 
-**Aplikasi Operation Center untuk BSS (Bahana Solusi Sejahtera)**
+**Aplikasi Operation Center untuk BSS (BSS Parking)**
 
 [![Download APK](https://img.shields.io/badge/Download-Latest%20APK-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/latest/download/app-release.apk)
 
