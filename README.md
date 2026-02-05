@@ -1,11 +1,18 @@
-# BSS Operation Center - Download
+# BSS Operation Center
 
-Download versi terbaru: [Latest Release](https://github.com/username/my-app-releases/releases/latest)
+## 📥 Download APK
 
-## Cara Install
-1. Download APK dari Releases
-2. Enable "Install from Unknown Sources"
+<div align="center">
+
+### Latest Version
+
+[![Download APK](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)](https://github.com/AhmadFikriAS/parkways_opr_report/releases/latest/download/app-release.apk)
+
+**Klik tombol di atas untuk download langsung**
+
+</div>
+
+## Installation
+1. Download APK menggunakan tombol di atas
+2. Enable "Install from Unknown Sources" 
 3. Install APK
-
-## Version History
-Lihat [Releases](https://github.com/username/my-app-releases/releases)
