@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![BSS Logo]<img width="308" height="128" alt="bssparking_icon" src="https://github.com/user-attachments/assets/09ee49d2-f760-4237-aedb-9e13b6fd7b75" />
+<img width="308" height="128" alt="bssparking_icon" src="https://github.com/user-attachments/assets/09ee49d2-f760-4237-aedb-9e13b6fd7b75" />
 
 
 **Aplikasi Operation Center untuk BSS (Bahana Solusi Sejahtera)**
