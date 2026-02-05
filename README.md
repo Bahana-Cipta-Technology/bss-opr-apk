@@ -2,7 +2,8 @@
 
 <div align="center">
 
-![BSS Logo](https://via.placeholder.com/150x150?text=BSS+Logo)
+![BSS Logo](<img width="308" height="128" alt="bssparking_icon" src="https://github.com/user-attachments/assets/09ee49d2-f760-4237-aedb-9e13b6fd7b75" />
+)
 
 **Aplikasi Operation Center untuk BSS (Bahana Solusi Sejahtera)**
 
@@ -59,14 +60,6 @@ https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/latest/download/
 
 ---
 
-## 📋 Version History
-
-Lihat changelog dan download versi sebelumnya:
-
-**[📦 All Releases](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases)**
-
----
-
 ## 🛠️ Troubleshooting
 
 ### ❓ Tidak bisa download?
@@ -106,9 +99,9 @@ Lihat changelog dan download versi sebelumnya:
 
 Jika mengalami kendala atau ada pertanyaan:
 
-- 📧 **Email:** support@bahanaciptatechnology.com
+- 📧 **Email:** support@bahanaciptatechnolog.com
 - 💬 **WhatsApp:** +62 xxx-xxxx-xxxx
-- 🌐 **Website:** https://bahanaciptatechnology.com
+- 🌐 **Website:** https://bahanaciptatechnolog.com
 
 Atau buat **[Issue](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/issues)** di repository ini.
 
@@ -124,7 +117,7 @@ Aplikasi ini dirancang untuk meningkatkan efisiensi operasional dan monitoring u
 
 ## 📄 License
 
-© 2024 Bahana Cipta Technology. All rights reserved.
+© 2026 Bahana Cipta Technology. All rights reserved.
 
 ---
 
@@ -147,14 +140,3 @@ https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/latest/download/
 Link ini **100% public dan bisa diakses tanpa login!**
 
 ---
-
-## Checklist:
-```
-✅ Update workflow di repo private dengan workflow di atas
-✅ Generate PAT dengan scope 'repo' dan 'write:org'
-✅ Authorize PAT untuk organization Bahana-Cipta-Technology
-✅ Simpan PAT sebagai 'ORG_RELEASE_TOKEN' di repo private
-✅ Pastikan repo organization sudah PUBLIC
-✅ Update README.md di repo organization
-✅ Push ke branch dev untuk trigger workflow
-✅ Test download link di incognito browser
