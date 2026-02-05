@@ -1,33 +1,160 @@
 # BSS Operation Center
 
-## 📥 Download APK
-
 <div align="center">
 
-### Latest Version
+![BSS Logo](https://via.placeholder.com/150x150?text=BSS+Logo)
 
-[![Download APK](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)](https://github.com/AhmadFikriAS/parkways_opr_report/releases/latest/download/app-release.apk)
+**Aplikasi Operation Center untuk BSS (Bahana Solusi Sejahtera)**
 
-**Klik tombol di atas untuk download langsung**
+[![Download APK](https://img.shields.io/badge/Download-Latest%20APK-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/latest/download/app-release.apk)
 
-atau copy link ini:
-```
-https://github.com/AhmadFikriAS/parkways_opr_report/releases/latest/download/app-release.apk
-```
+[![Version](https://img.shields.io/github/v/release/Bahana-Cipta-Technology/bss-opr-apk?label=version)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases)
+[![Downloads](https://img.shields.io/github/downloads/Bahana-Cipta-Technology/bss-opr-apk/total)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases)
+[![Release Date](https://img.shields.io/github/release-date/Bahana-Cipta-Technology/bss-opr-apk)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/latest)
 
 </div>
 
-## Installation
-1. Download APK menggunakan tombol di atas (tidak perlu login GitHub)
-2. Buka "Settings" → "Security" di Android
-3. Enable "Install from Unknown Sources" untuk browser Anda
-4. Buka file APK yang sudah didownload
-5. Tap "Install"
+---
 
-## Troubleshooting
-- **Tidak bisa download?** Pastikan koneksi internet stabil
-- **Tidak bisa install?** Enable "Unknown Sources" di settings
-- **APK corrupt?** Download ulang dari link di atas
+## 📥 Download & Installation
 
-## Version History
-Lihat semua versi: [Releases](https://github.com/AhmadFikriAS/parkways_opr_report/releases)
+### Download APK
+
+Klik tombol hijau di atas atau gunakan link langsung:
+```
+https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/latest/download/app-release.apk
+```
+
+### Cara Install
+
+1. **Download APK** menggunakan tombol atau link di atas
+2. Buka **Settings** → **Security & Privacy** di perangkat Android
+3. Enable **"Install from Unknown Sources"** atau **"Allow from this source"**
+4. Buka file **app-release.apk** dari folder Downloads
+5. Tap **Install** dan tunggu hingga selesai
+6. Tap **Open** untuk membuka aplikasi
+
+---
+
+## ✨ Features
+
+- 📊 **Laporan Operasional** - Buat dan kelola laporan harian
+- 📈 **Dashboard Monitoring** - Pantau performa real-time
+- 🔔 **Notifikasi Push** - Terima update penting langsung
+- 📱 **Offline Mode** - Tetap produktif tanpa koneksi internet
+- 🔒 **Secure Login** - Autentikasi aman untuk data terlindungi
+- 👥 **Multi-user Support** - Berbagai role dan permission
+
+---
+
+## 🖼️ Screenshots
+
+<div align="center">
+
+| Dashboard | Reports | Profile |
+|:---------:|:-------:|:-------:|
+| ![Dashboard](https://via.placeholder.com/250x450?text=Dashboard) | ![Reports](https://via.placeholder.com/250x450?text=Reports) | ![Profile](https://via.placeholder.com/250x450?text=Profile) |
+
+</div>
+
+---
+
+## 📋 Version History
+
+Lihat changelog dan download versi sebelumnya:
+
+**[📦 All Releases](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases)**
+
+---
+
+## 🛠️ Troubleshooting
+
+### ❓ Tidak bisa download?
+- Pastikan koneksi internet stabil
+- Coba browser lain (Chrome, Firefox, dll)
+- Disable VPN jika menggunakan
+- Clear browser cache dan coba lagi
+
+### ❓ Tidak bisa install?
+- Pastikan **"Unknown Sources"** sudah enabled
+- Cek apakah storage device cukup (minimal 50MB free)
+- Uninstall versi lama jika ada
+- Restart device dan coba lagi
+
+### ❓ APK corrupt atau error saat install?
+- Download ulang APK dari link di atas
+- Pastikan download selesai 100% (tidak terputus)
+- Scan APK dengan antivirus jika perlu
+
+### ❓ Aplikasi crash atau force close?
+- Pastikan Android version minimal **5.0 (Lollipop)**
+- Clear app cache: Settings → Apps → BSS OPR → Storage → Clear Cache
+- Update ke versi terbaru
+
+---
+
+## 📱 System Requirements
+
+- **OS:** Android 5.0 (Lollipop) atau lebih baru
+- **RAM:** Minimal 2GB
+- **Storage:** Minimal 50MB free space
+- **Internet:** Diperlukan untuk sync data (offline mode available)
+
+---
+
+## 📞 Support & Contact
+
+Jika mengalami kendala atau ada pertanyaan:
+
+- 📧 **Email:** support@bahanaciptatechnology.com
+- 💬 **WhatsApp:** +62 xxx-xxxx-xxxx
+- 🌐 **Website:** https://bahanaciptatechnology.com
+
+Atau buat **[Issue](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/issues)** di repository ini.
+
+---
+
+## 🏢 About
+
+**BSS Operation Center** dikembangkan oleh **[Bahana Cipta Technology](https://github.com/Bahana-Cipta-Technology)**
+
+Aplikasi ini dirancang untuk meningkatkan efisiensi operasional dan monitoring untuk PT Bahana Solusi Sejahtera.
+
+---
+
+## 📄 License
+
+© 2024 Bahana Cipta Technology. All rights reserved.
+
+---
+
+<div align="center">
+
+**Made with ❤️ by Bahana Cipta Technology Team**
+
+[⬆ Back to Top](#bss-operation-center)
+
+</div>
+```
+
+---
+
+## Link Download Akhir:
+```
+https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/latest/download/app-release.apk
+```
+
+Link ini **100% public dan bisa diakses tanpa login!**
+
+---
+
+## Checklist:
+```
+✅ Update workflow di repo private dengan workflow di atas
+✅ Generate PAT dengan scope 'repo' dan 'write:org'
+✅ Authorize PAT untuk organization Bahana-Cipta-Technology
+✅ Simpan PAT sebagai 'ORG_RELEASE_TOKEN' di repo private
+✅ Pastikan repo organization sudah PUBLIC
+✅ Update README.md di repo organization
+✅ Push ke branch dev untuk trigger workflow
+✅ Test download link di incognito browser
