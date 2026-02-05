@@ -128,7 +128,6 @@ Aplikasi ini dirancang untuk meningkatkan efisiensi operasional dan monitoring u
 [⬆ Back to Top](#bss-operation-center)
 
 </div>
-```
 
 ---
 
