@@ -6,7 +6,8 @@
 
 ### Latest Version
 
-[![Download APK](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)](https://github.com/AhmadFikriAS/parkways_opr_report/releases/tag/latest/app-release.apk)
+[![Download APK](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)](https://github.com/AhmadFikriAS/parkways_opr_report/releases/latest/download/app-release.apk)
+
 
 **Klik tombol di atas untuk download langsung**
 
