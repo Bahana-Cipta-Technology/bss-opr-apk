@@ -111,7 +111,7 @@ Atau buat **[Issue](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/issue
 
 **BSS Operation Center** dikembangkan oleh **[Bahana Cipta Technology](https://github.com/Bahana-Cipta-Technology)**
 
-Aplikasi ini dirancang untuk meningkatkan efisiensi operasional dan monitoring untuk PT Bahana Solusi Sejahtera.
+Aplikasi ini dirancang untuk meningkatkan efisiensi operasional dan monitoring untuk PT BSS Parking.
 
 ---
 
