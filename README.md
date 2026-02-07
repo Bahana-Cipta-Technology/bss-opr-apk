@@ -27,11 +27,6 @@
 ```
 https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/download/latest/app-release.apk
 ```
-
-**📋 Alternative Links:**
-- [Download via Release Page](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/latest) (jika direct link bermasalah)
-- [View All Versions](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases)
-
 ---
 
 ### Cara Install
