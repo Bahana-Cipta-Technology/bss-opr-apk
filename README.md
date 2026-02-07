@@ -17,18 +17,6 @@
 
 ---
 
-## 📥 Download & Installation
-
-### Download APK
-
-**Klik tombol hijau di atas** atau gunakan salah satu link berikut:
-
-**📥 Direct Download (Recommended):**
-```
-https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/download/latest/app-release.apk
-```
----
-
 ### Cara Install
 
 1. **Download APK** menggunakan tombol atau link di atas
