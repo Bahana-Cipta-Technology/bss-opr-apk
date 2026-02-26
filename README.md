@@ -7,7 +7,7 @@
 **Aplikasi Operation Center untuk BSS (BSS Parking)**
 
 <!-- Direct download link - langsung download tanpa redirect -->
-[![Download Latest APK](https://img.shields.io/badge/Download-Latest%20APK-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/download/v1.0.0%2B27/app-release.apk)
+[![Download Latest APK](https://img.shields.io/badge/Download-Latest%20APK-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/download/v1.0.0%2B28/app-release.apk)
 
 [![Latest Version](https://img.shields.io/github/v/release/Bahana-Cipta-Technology/bss-opr-apk?label=version)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Bahana-Cipta-Technology/bss-opr-apk/total)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases)
@@ -72,7 +72,7 @@ Jika download sering stuck, gunakan aplikasi download manager:
 1. Install **[ADM (Advanced Download Manager)](https://play.google.com/store/apps/details?id=com.dv.adm)** dari Play Store (GRATIS)
 2. Copy link download:
 ```
-   https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/download/v1.0.0%2B27/app-release.apk
+   https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/download/v1.0.0%2B28/app-release.apk
 ```
 3. Buka ADM
 4. Paste link di ADM
