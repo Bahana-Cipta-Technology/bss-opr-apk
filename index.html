@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BSS Operation Center — Download</title>
   <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
       background: #0a0f14;
@@ -16,6 +22,7 @@
       justify-content: center;
       padding: 24px;
     }
+
     .card {
       background: #111a24;
       border: 1px solid #1e3045;
@@ -25,19 +32,35 @@
       width: 100%;
       text-align: center;
     }
-    img { height: 44px; margin-bottom: 20px; }
-    h1 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
-    p { font-size: 13px; color: #5a7a8a; margin-bottom: 20px; }
+
+    img {
+      height: 44px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    p {
+      font-size: 13px;
+      color: #5a7a8a;
+      margin-bottom: 20px;
+    }
+
     .version {
       display: inline-block;
-      background: rgba(0,180,255,0.1);
-      border: 1px solid rgba(0,180,255,0.2);
+      background: rgba(0, 180, 255, 0.1);
+      border: 1px solid rgba(0, 180, 255, 0.2);
       color: #00b4ff;
       font-size: 12px;
       padding: 4px 12px;
       border-radius: 100px;
       margin-bottom: 24px;
     }
+
     .btn {
       display: flex;
       align-items: center;
@@ -56,16 +79,56 @@
       transition: opacity 0.2s;
       margin-bottom: 10px;
     }
-    .btn:hover { opacity: 0.85; }
-    .info { font-size: 12px; color: #5a7a8a; }
-    .divider { height: 1px; background: #1e3045; margin: 24px 0; }
-    .steps { text-align: left; }
-    .steps h3 { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #5a7a8a; margin-bottom: 12px; }
-    .step { display: flex; gap: 10px; margin-bottom: 10px; font-size: 13px; color: #8aa0b0; }
-    .step span:first-child { color: #00b4ff; font-weight: 700; flex-shrink: 0; }
-    .error { color: #ff5252; font-size: 13px; margin-top: 8px; }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+
+    .info {
+      font-size: 12px;
+      color: #5a7a8a;
+    }
+
+    .divider {
+      height: 1px;
+      background: #1e3045;
+      margin: 24px 0;
+    }
+
+    .steps {
+      text-align: left;
+    }
+
+    .steps h3 {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #5a7a8a;
+      margin-bottom: 12px;
+    }
+
+    .step {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      color: #8aa0b0;
+    }
+
+    .step span:first-child {
+      color: #00b4ff;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .error {
+      color: #ff5252;
+      font-size: 13px;
+      margin-top: 8px;
+    }
   </style>
 </head>
+
 <body>
   <div class="card">
     <img src="https://github.com/user-attachments/assets/09ee49d2-f760-4237-aedb-9e13b6fd7b75" alt="BSS" />
@@ -93,8 +156,8 @@
         const asset = data.assets.find(a => a.name === 'app-release.apk');
         if (!asset) throw new Error();
         document.getElementById('version').textContent = data.tag_name;
-        document.getElementById('info').textContent = (asset.size/1048576).toFixed(1) + ' MB · ' + asset.download_count + ' downloads';
-        btn.href = asset.browser_download_url;
+        document.getElementById('info').textContent = (asset.size / 1048576).toFixed(1) + ' MB · ' + asset.download_count + ' downloads';
+        btn.href = 'https://pub-f9aff3bd48844c648eefd60cd793696a.r2.dev'; // ganti dengan R2_PUBLIC_URL kamu
         btn.onclick = null;
       })
       .catch(() => {
@@ -106,4 +169,5 @@
       });
   </script>
 </body>
+
 </html>
