@@ -136,7 +136,7 @@
     <p>Aplikasi monitoring & laporan operasional BSS Parking</p>
     <div class="version" id="version">Memuat...</div>
     <!-- Tombol download -->
-    <a class="btn" id="btn" href="#" target="_blank" rel="noopener">↓ Download APK</a>
+    <a class="btn" id="btn" href="#">↓ Download APK</a>
     <div class="info" id="info">Mengambil info...</div>
     <div class="error" id="error" style="display:none"></div>
     <div class="divider"></div>
@@ -161,11 +161,14 @@
         document.getElementById('info').textContent =
           (asset.size / 1048576).toFixed(1) + ' MB · ' + asset.download_count + ' downloads';
 
-        // redirect page khusus untuk Telegram
         const downloadUrl = 'https://pub-f9aff3bd48844c648eefd60cd793696a.r2.dev/app-release.apk';
-        const redirectPage = 'https://your-domain.com/download-redirect.html?file=' + encodeURIComponent(downloadUrl);
 
-        btn.href = redirectPage;
+        // Telegram / in-app browser safe download
+        btn.href = downloadUrl;
+        btn.onclick = (e) => {
+          e.preventDefault();
+          window.open(downloadUrl, '_blank'); // paksa buka di browser eksternal
+        };
       })
       .catch(() => {
         document.getElementById('version').textContent = 'Error';
