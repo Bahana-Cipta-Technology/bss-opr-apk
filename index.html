@@ -148,17 +148,22 @@
   </div>
   <script>
     const btn = document.getElementById('btn');
-    btn.onclick = e => e.preventDefault();
 
     fetch('https://api.github.com/repos/Bahana-Cipta-Technology/bss-opr-apk/releases/latest')
       .then(r => r.json())
       .then(data => {
         const asset = data.assets.find(a => a.name === 'app-release.apk');
         if (!asset) throw new Error();
+
         document.getElementById('version').textContent = data.tag_name;
-        document.getElementById('info').textContent = (asset.size / 1048576).toFixed(1) + ' MB · ' + asset.download_count + ' downloads';
-        btn.href = 'https://pub-f9aff3bd48844c648eefd60cd793696a.r2.dev/app-release.apk'; // ganti dengan R2_PUBLIC_URL kamu
-        btn.onclick = null;
+        document.getElementById('info').textContent =
+          (asset.size / 1048576).toFixed(1) + ' MB · ' +
+          asset.download_count + ' downloads';
+
+        // LANGSUNG SET HREF (tanpa onclick hack)
+        btn.href = 'https://pub-f9aff3bd48844c648eefd60cd793696a.r2.dev/app-release.apk';
+        btn.setAttribute('target', '_blank');
+        btn.setAttribute('rel', 'noopener');
       })
       .catch(() => {
         document.getElementById('version').textContent = 'Error';
