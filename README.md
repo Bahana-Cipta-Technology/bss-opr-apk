@@ -6,7 +6,7 @@
 
 **Aplikasi Operation Center untuk BSS (BSS Parking)**
 
-[![Download Latest APK](https://img.shields.io/badge/Download-Latest%20APK-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://bahana-cipta-technology.github.io/bss-opr-apk)
+[![Download Latest APK](https://img.shields.io/badge/Download-Latest%20APK-brightgreen?style=for-the-badge&logo=android&logoColor=white)](https://bahana-cipta-technology.github.io/bss-opr-apk/)
 
 [![Latest Version](https://img.shields.io/github/v/release/Bahana-Cipta-Technology/bss-opr-apk?label=version)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Bahana-Cipta-Technology/bss-opr-apk/total)](https://github.com/Bahana-Cipta-Technology/bss-opr-apk/releases)
