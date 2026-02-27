@@ -4,7 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>BSS Operation Center — Download</title>
+
+  <!-- Telegram & Social Preview -->
+  <meta property="og:title" content="BSS Operation Center" />
+  <meta property="og:description" content="Download APK terbaru BSS Parking" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://github.com/user-attachments/assets/09ee49d2-f760-4237-aedb-9e13b6fd7b75" />
+
+  <!-- Prevent weird caching -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
   <style>
     * {
       box-sizing: border-box;
@@ -62,26 +75,16 @@
     }
 
     .btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
+      display: block;
       width: 100%;
       padding: 14px;
       background: #00b4ff;
       color: #000;
       font-size: 15px;
       font-weight: 700;
-      border: none;
       border-radius: 12px;
-      cursor: pointer;
       text-decoration: none;
-      transition: opacity 0.2s;
       margin-bottom: 10px;
-    }
-
-    .btn:hover {
-      opacity: 0.85;
     }
 
     .info {
@@ -89,42 +92,10 @@
       color: #5a7a8a;
     }
 
-    .divider {
-      height: 1px;
-      background: #1e3045;
-      margin: 24px 0;
-    }
-
-    .steps {
-      text-align: left;
-    }
-
-    .steps h3 {
+    .note {
       font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: #5a7a8a;
-      margin-bottom: 12px;
-    }
-
-    .step {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 10px;
-      font-size: 13px;
-      color: #8aa0b0;
-    }
-
-    .step span:first-child {
-      color: #00b4ff;
-      font-weight: 700;
-      flex-shrink: 0;
-    }
-
-    .error {
-      color: #ff5252;
-      font-size: 13px;
-      margin-top: 8px;
+      color: #ffb74d;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -134,39 +105,26 @@
     <img src="https://github.com/user-attachments/assets/09ee49d2-f760-4237-aedb-9e13b6fd7b75" alt="BSS" />
     <h1>BSS Operation Center</h1>
     <p>Aplikasi monitoring & laporan operasional BSS Parking</p>
-    <div class="version" id="version">Memuat...</div>
-    <a class="btn" id="btn" href="#">↓ Download APK</a>
-    <div class="info" id="info">Mengambil info...</div>
-    <div class="error" id="error" style="display:none"></div>
-    <div class="divider"></div>
-    <div class="steps">
-      <h3>Cara Install</h3>
-      <div class="step"><span>1.</span><span>Tap tombol Download APK di atas</span></div>
-      <div class="step"><span>2.</span><span>Aktifkan <b>Install Unknown Apps</b> di Settings</span></div>
-      <div class="step"><span>3.</span><span>Buka file APK dari Downloads lalu tap Install</span></div>
+
+    <div class="version">Latest Version</div>
+
+    <!-- DIRECT LINK (NO JS DEPENDENCY) -->
+    <a class="btn" href="https://pub-f9aff3bd48844c648eefd60cd793696a.r2.dev/app-release.apk" download>
+      ↓ Download APK
+    </a>
+
+    <div class="info">Android 8.0+ · File APK</div>
+
+    <div class="note" id="telegramNote" style="display:none">
+      Jika download tidak berjalan, buka di Browser Eksternal (⋮ → Open in Browser)
     </div>
   </div>
-  <script>
-    const btn = document.getElementById('btn');
-    btn.onclick = e => e.preventDefault();
 
-    fetch('https://api.github.com/repos/Bahana-Cipta-Technology/bss-opr-apk/releases/latest')
-      .then(r => r.json())
-      .then(data => {
-        const asset = data.assets.find(a => a.name === 'app-release.apk');
-        if (!asset) throw new Error();
-        document.getElementById('version').textContent = data.tag_name;
-        document.getElementById('info').textContent = (asset.size / 1048576).toFixed(1) + ' MB · ' + asset.download_count + ' downloads';
-        btn.href = 'https://pub-f9aff3bd48844c648eefd60cd793696a.r2.dev/app-release.apk'; // ganti dengan R2_PUBLIC_URL kamu
-        btn.onclick = null;
-      })
-      .catch(() => {
-        document.getElementById('version').textContent = 'Error';
-        document.getElementById('info').textContent = '';
-        const err = document.getElementById('error');
-        err.style.display = 'block';
-        err.textContent = '⚠ Gagal memuat. Refresh halaman.';
-      });
+  <script>
+    // Detect Telegram
+    if (/Telegram/i.test(navigator.userAgent)) {
+      document.getElementById("telegramNote").style.display = "block";
+    }
   </script>
 </body>
 
