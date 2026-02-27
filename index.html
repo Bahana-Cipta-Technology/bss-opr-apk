@@ -157,7 +157,7 @@
         if (!asset) throw new Error();
         document.getElementById('version').textContent = data.tag_name;
         document.getElementById('info').textContent = (asset.size / 1048576).toFixed(1) + ' MB · ' + asset.download_count + ' downloads';
-        btn.href = 'https://pub-f9aff3bd48844c648eefd60cd793696a.r2.dev'; // ganti dengan R2_PUBLIC_URL kamu
+        btn.href = 'https://pub-f9aff3bd48844c648eefd60cd793696a.r2.dev/app-release.apk'; // ganti dengan R2_PUBLIC_URL kamu
         btn.onclick = null;
       })
       .catch(() => {
