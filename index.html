@@ -135,7 +135,8 @@
     <h1>BSS Operation Center</h1>
     <p>Aplikasi monitoring & laporan operasional BSS Parking</p>
     <div class="version" id="version">Memuat...</div>
-    <a class="btn" id="btn" href="#">↓ Download APK</a>
+    <!-- Tombol download -->
+    <a class="btn" id="btn" href="#" target="_blank" rel="noopener">↓ Download APK</a>
     <div class="info" id="info">Mengambil info...</div>
     <div class="error" id="error" style="display:none"></div>
     <div class="divider"></div>
@@ -146,6 +147,7 @@
       <div class="step"><span>3.</span><span>Buka file APK dari Downloads lalu tap Install</span></div>
     </div>
   </div>
+
   <script>
     const btn = document.getElementById('btn');
 
@@ -157,13 +159,13 @@
 
         document.getElementById('version').textContent = data.tag_name;
         document.getElementById('info').textContent =
-          (asset.size / 1048576).toFixed(1) + ' MB · ' +
-          asset.download_count + ' downloads';
+          (asset.size / 1048576).toFixed(1) + ' MB · ' + asset.download_count + ' downloads';
 
-        // LANGSUNG SET HREF (tanpa onclick hack)
-        btn.href = 'https://pub-f9aff3bd48844c648eefd60cd793696a.r2.dev/app-release.apk';
-        btn.setAttribute('target', '_blank');
-        btn.setAttribute('rel', 'noopener');
+        // redirect page khusus untuk Telegram
+        const downloadUrl = 'https://pub-f9aff3bd48844c648eefd60cd793696a.r2.dev/app-release.apk';
+        const redirectPage = 'https://your-domain.com/download-redirect.html?file=' + encodeURIComponent(downloadUrl);
+
+        btn.href = redirectPage;
       })
       .catch(() => {
         document.getElementById('version').textContent = 'Error';
